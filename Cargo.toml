@@ -1,9 +1,9 @@
 [package]
 authors = ["Jorge Aparicio <jorge@japaric.io>"]
 categories = ["no-std"]
-description = "Set panic behavior to abort"
-keywords = ["panic", "abort"]
+description = "Set panicking behavior to abort"
+keywords = ["panic-impl", "panic", "abort"]
 license = "MIT OR Apache-2.0"
 name = "panic-abort"
 repository = "https://github.com/japaric/panic-abort"
-version = "0.1.0"
+version = "0.1.1"

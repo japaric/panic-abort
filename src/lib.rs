@@ -1,8 +1,20 @@
-//! Set panic behavior to abort
+//! Set the panicking behavior to abort
 //!
-//! This is an implementation of `panic_fmt` that simply calls [`intrinsics::abort`].
+//! This crate contains an implementation of `panic_fmt` that simply calls [`intrinsics::abort`].
 //!
 //! [`intrinsics::abort`]: https://doc.rust-lang.org/core/intrinsics/fn.abort.html
+//!
+//! # Usage
+//!
+//! ``` ignore
+//! #![no_std]
+//!
+//! extern crate panic_abort;
+//!
+//! fn main() {
+//!     panic!("argument is ignored");
+//! }
+//! ```
 
 #![deny(missing_docs)]
 #![deny(warnings)]

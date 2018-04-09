@@ -1,6 +1,6 @@
 # `panic-abort`
 
-> Set panic behavior to abort
+> Set the panicking behavior to abort
 
 ## License
 
