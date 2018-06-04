@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.2.0] - 2018-06-04
+
+### Changed
+
+- [breaking-change] moved from the, now removed, `panic_fmt` lang item to the
+  `#[panic_implementation]` attribute.
+
 ## [v0.1.1] - 2018-04-09
 
 ### Changed
@@ -17,5 +24,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 Initial release
 
-[Unreleased]: https://github.com/japaric/panic-abort/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/japaric/panic-abort/compare/v0.2.0...HEAD
+[v0.2.0]: https://github.com/japaric/panic-abort/compare/v0.1.1...v0.2.0
 [v0.1.1]: https://github.com/japaric/panic-abort/compare/v0.1.0...v0.1.1
