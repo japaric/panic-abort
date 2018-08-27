@@ -19,13 +19,13 @@
 #![deny(missing_docs)]
 #![deny(warnings)]
 #![feature(core_intrinsics)]
-#![feature(panic_implementation)]
+#![feature(panic_handler)]
 #![no_std]
 
 use core::intrinsics;
 use core::panic::PanicInfo;
 
-#[panic_implementation]
+#[panic_handler]
 fn panic(_info: &PanicInfo) -> ! {
     unsafe { intrinsics::abort() }
 }
