@@ -2,6 +2,7 @@
 authors = ["Jorge Aparicio <jorge@japaric.io>"]
 categories = ["no-std"]
 description = "Set panicking behavior to abort"
+documentation = "https://japaric.github.io/panic-abort/panic_abort"
 keywords = ["panic-impl", "panic", "abort"]
 license = "MIT OR Apache-2.0"
 name = "panic-abort"
