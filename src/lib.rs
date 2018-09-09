@@ -16,6 +16,7 @@
 //! }
 //! ```
 
+#![allow(stable_features)]
 #![deny(missing_docs)]
 #![deny(warnings)]
 #![feature(core_intrinsics)]
