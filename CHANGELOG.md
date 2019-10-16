@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [Unreleased]
 
+## [v0.3.2] - 2019-10-15
+
+### Changed
+
+- Updated the documentation to indicate the current behavior of `intrinsics::abort`.
+
 ## [v0.3.1] - 2018-09-09
 
 ### Added
