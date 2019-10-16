@@ -7,4 +7,4 @@ keywords = ["panic-impl", "panic-handler", "panic", "abort"]
 license = "MIT OR Apache-2.0"
 name = "panic-abort"
 repository = "https://github.com/japaric/panic-abort"
-version = "0.3.1"
+version = "0.3.2"
